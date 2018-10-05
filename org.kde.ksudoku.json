@@ -13,7 +13,8 @@
         "--device=dri",
         "--filesystem=xdg-config/kdeglobals:ro",
         "--talk-name=org.kde.kuiserver",
-        "--talk-name=org.kde.JobViewServer"
+        "--talk-name=org.kde.JobViewServer",
+        "--filesystem=xdg-config/kdeglobals:ro"
     ],
     "modules": [
         "shared-modules/glu/glu-9.0.0.json",
