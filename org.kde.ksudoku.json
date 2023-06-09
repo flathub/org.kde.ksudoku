@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/ksudoku-23.04.1.tar.xz",
-                    "sha256": "d0af66bd30a9ac64f57cd9094179bb3e9426b8e3c25ad6ac949dedde211c51e6",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/ksudoku-23.04.2.tar.xz",
+                    "sha256": "ab478bf9d8bd1348f438ae08c3c219d8676ae0150d45ed920ace5dc804f93019",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
