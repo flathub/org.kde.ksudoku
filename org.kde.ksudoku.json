@@ -6,13 +6,13 @@
     "command": "ksudoku",
     "rename-icon": "ksudoku",
     "finish-args": [
-        "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
-        "--socket=pulseaudio",
         "--device=dri",
-        "--talk-name=org.kde.kuiserver",
-        "--talk-name=org.kde.JobViewServer"
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland",
+        "--talk-name=org.kde.JobViewServer",
+        "--talk-name=org.kde.kuiserver"
     ],
     "modules": [
         "shared-modules/glu/glu-9.json",
