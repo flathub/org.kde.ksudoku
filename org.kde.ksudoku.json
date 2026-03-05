@@ -14,6 +14,14 @@
         "--talk-name=org.kde.JobViewServer",
         "--talk-name=org.kde.kuiserver"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/qml",
+        "/share/carddecks",
+        "/share/doc",
+        "/share/qlogging-categories6"
+    ],
     "modules": [
         {
             "name": "libkdegames",
