@@ -15,7 +15,6 @@
         "--talk-name=org.kde.kuiserver"
     ],
     "modules": [
-        "shared-modules/glu/glu-9.json",
         {
             "name": "libkdegames",
             "buildsystem": "cmake-ninja",
