@@ -14,8 +14,15 @@
         "--talk-name=org.kde.JobViewServer",
         "--talk-name=org.kde.kuiserver"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/qml",
+        "/share/carddecks",
+        "/share/doc",
+        "/share/qlogging-categories6"
+    ],
     "modules": [
-        "shared-modules/glu/glu-9.json",
         {
             "name": "libkdegames",
             "buildsystem": "cmake-ninja",
